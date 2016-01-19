@@ -1,0 +1,25 @@
+<div class="main_content">
+	<h1>Contact Me</h1>
+	<% if @contact_submitted %>
+	<p>Thank you!</p>
+	<%else%>
+	<form class="contact" action="/contact" method="post">
+		<div class="input-row">
+				<label for="name">Name: </label>
+				<input type="text" name="name"/>
+		</div>
+		<div class="input-row">
+				<label for="name">Email: </label>
+				<input type="text" name="email"/>
+		</div>
+		<div class="input-row">
+				<label for="name">Message: </label>
+				<textarea name="message"></textarea>
+				
+		</div>
+		<div class="input-row">
+			<input type="submit" value="Contact Me" />
+		</div>
+	</form>
+	<%end%>
+</div>
