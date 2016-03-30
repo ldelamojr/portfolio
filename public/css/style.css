@@ -215,6 +215,12 @@ ul.recent_work li:hover {
   opacity: 1;
 }
 
+img.works {
+
+  width: 200px;
+  height: 200px;
+}
+
 a.cta {
   display: block;
   margin: 40px auto 0 auto;
@@ -229,15 +235,15 @@ a.cta {
 }
 
 a.cta:hover {
-  background: #000;
-  color: #fff;
+  background: grey;
+  color: darkblue;
 }
 
 /*Contact*/
 
 form.contact {
   width: 600px;
-  background: #fBE0B6;
+  background: darkblue;
   padding: 20px;
   margin: 0 auto;
 }
@@ -251,6 +257,7 @@ form.contact div.input-row label {
   font-size: 22px;
   display: inline-block;
   width: 120px;
+  color: white;
 }
 
 form.contact div.input-row input[type=text] {
@@ -276,6 +283,7 @@ form.contact div.input-row input[type=submit] {
   background: darkblue;
   padding: 6px 20px;
   cursor: pointer;
+  color: white;
 }
 
 
