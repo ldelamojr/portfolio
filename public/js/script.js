@@ -22,7 +22,7 @@ $(document).ready(function(){
     }
   }
 
-  setInterval(start_slider, 2000);
+  setInterval(start_slider, 4000);
 
   /* Menus */
 

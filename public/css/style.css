@@ -59,15 +59,15 @@ table {
 /* Custom Styles */
 
 body {
-  background: #44FF99;
+  background: lightgray;
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 17px;
 }
 
 a.logo { display: block;
-  background: url(../img/logo.png) 0 0 no-repeat;
-  height: 76px;
-  width: 60px;
+  background: url(../img/logo2.png) 0 0 no-repeat;
+  height: 64px;
+  width: 128px;
   float: left; 
 }
 
@@ -79,7 +79,6 @@ div.wrapper {
 .header {
   padding: 30px;
   border-bottom: 8px solid #000;
-
 }
 
 .main_content {
@@ -111,14 +110,14 @@ ul.main_navigation a {
 
 ul.main_navigation a:hover,
 ul.main_navigation a.hover {
-  background: #de5a51;
+  background: darkblue;
   color: #fff;
 }
 
 ul.main_navigation li ul.sub_main_navigation {
   position: absolute;
   top: 44px;
-  background: #000;
+  background: darkblue;
   display: none
 }
 
@@ -129,11 +128,12 @@ ul.main_navigation li ul.sub_main_navigation a {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 60px;
+  font-size: 30px;
   text-align: center;
   display: block;
   margin: 40px;
-  color: #de5a51;
+  margin-top: 8px;
+  color: darkblue;
 }
 
 h2 {
@@ -162,17 +162,17 @@ ul.slider li {
 }
 
 ul.slider li.slide-1 {
-  background: url(../img/slide-1.jpg) 0 0 no-repeat;
+  background: url(../img/slide-1.png) 0 0 no-repeat;
   background-size: cover;
 }
 
 ul.slider li.slide-2 {
-  background: url(../img/slide-2.jpg) 0 0 no-repeat;
+  background: url(../img/slide-2.png) 0 0 no-repeat;
   background-size: cover;
 }
 
 ul.slider li.slide-3 {
-  background: url(../img/slide-3.jpg) 0 0 no-repeat;
+  background: url(../img/slide-3.png) 0 0 no-repeat;
   background-size: cover;
 }
 
@@ -196,9 +196,9 @@ ul.info li strong {
   text-align: center;
   display: block;
   margin: 12px 0;
-  color: #de5a51;
+  color: darkblue;
   padding-bottom: 12px;
-  border-bottom: 1px solid #de5a51;
+  border-bottom: 1px solid darkblue;
 }
 
 /* Recent Work */
@@ -219,7 +219,7 @@ a.cta {
   display: block;
   margin: 40px auto 0 auto;
   width: 300px;
-  background: #DE5A51;
+  background: darkblue;
   padding: 20px;
   color: #fff;
   text-decoration: none;
@@ -273,7 +273,7 @@ form.contact div.input-row input[type=submit] {
   font-size: 22px;
   border: 1px solid #bbb;
   margin-left: 126px;
-  background: #DE5A51;
+  background: darkblue;
   padding: 6px 20px;
   cursor: pointer;
 }
@@ -291,5 +291,5 @@ form.contact div.input-row input[type=submit] {
 .footer ul.footer_navigation { float: right; }
 
 .footer ul.footer_navigation li { display: inline-block; margin-right: 8px }
-.footer ul.footer_navigation li a { color: #de5a51; text-decoration: none }
+.footer ul.footer_navigation li a { color: darkblue; text-decoration: none }
 .footer ul.footer_navigation li a:hover { color: #000; text-decoration: none }
