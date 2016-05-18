@@ -220,7 +220,7 @@ ul.recent_work { margin: 0 auto; width: 880px; }
 ul.recent_work li {
   float: left;
   margin: 10px;
-  opacity: .3;
+  opacity: .5;
 }
 
 ul.recent_work li:hover {
