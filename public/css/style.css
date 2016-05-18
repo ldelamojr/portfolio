@@ -188,6 +188,11 @@ ul.slider li.slide-3 {
   background-size: cover;
 }
 
+ul.slider li.slide-4 {
+  background: url(../img/slide-4.png) 0 0 no-repeat;
+  background-size: cover;
+}
+
 /* Info Boxes */
 
 ul.info { margin: 0 auto; }
